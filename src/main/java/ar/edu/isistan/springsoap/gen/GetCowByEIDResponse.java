@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="herd" type="{http://www.isistan.edu.ar/springsoap/gen}Herd"/&gt;
+ *         &lt;element name="cow" type="{http://www.isistan.edu.ar/springsoap/gen}Cow"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -36,36 +36,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "herd"
+    "cow"
 })
-@XmlRootElement(name = "getHerdResponse")
-public class GetHerdResponse {
+@XmlRootElement(name = "getCowByEIDResponse")
+public class GetCowByEIDResponse {
 
     @XmlElement(required = true)
-    protected Herd herd;
+    protected Cow cow;
 
     /**
-     * Obtiene el valor de la propiedad herd.
+     * Obtiene el valor de la propiedad cow.
      * 
      * @return
      *     possible object is
-     *     {@link Herd }
+     *     {@link Cow }
      *     
      */
-    public Herd getHerd() {
-        return herd;
+    public Cow getCow() {
+        return cow;
     }
 
     /**
-     * Define el valor de la propiedad herd.
+     * Define el valor de la propiedad cow.
      * 
      * @param value
      *     allowed object is
-     *     {@link Herd }
+     *     {@link Cow }
      *     
      */
-    public void setHerd(Herd value) {
-        this.herd = value;
+    public void setCow(Cow value) {
+        this.cow = value;
     }
 
 }

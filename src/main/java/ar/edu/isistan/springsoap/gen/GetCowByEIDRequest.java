@@ -8,6 +8,7 @@
 
 package ar.edu.isistan.springsoap.gen;
 
+import java.math.BigInteger;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -25,7 +26,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="herd" type="{http://www.isistan.edu.ar/springsoap/gen}Herd"/&gt;
+ *         &lt;element name="eid" type="{http://www.w3.org/2001/XMLSchema}integer"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -36,36 +37,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "herd"
+    "eid"
 })
-@XmlRootElement(name = "getHerdResponse")
-public class GetHerdResponse {
+@XmlRootElement(name = "getCowByEIDRequest")
+public class GetCowByEIDRequest {
 
     @XmlElement(required = true)
-    protected Herd herd;
+    protected BigInteger eid;
 
     /**
-     * Obtiene el valor de la propiedad herd.
+     * Obtiene el valor de la propiedad eid.
      * 
      * @return
      *     possible object is
-     *     {@link Herd }
+     *     {@link BigInteger }
      *     
      */
-    public Herd getHerd() {
-        return herd;
+    public BigInteger getEid() {
+        return eid;
     }
 
     /**
-     * Define el valor de la propiedad herd.
+     * Define el valor de la propiedad eid.
      * 
      * @param value
      *     allowed object is
-     *     {@link Herd }
+     *     {@link BigInteger }
      *     
      */
-    public void setHerd(Herd value) {
-        this.herd = value;
+    public void setEid(BigInteger value) {
+        this.eid = value;
     }
 
 }

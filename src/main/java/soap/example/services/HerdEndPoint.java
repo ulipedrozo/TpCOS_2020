@@ -14,14 +14,13 @@ import ar.edu.isistan.springsoap.gen.Cow;
 import ar.edu.isistan.springsoap.gen.GetHerdRequest;
 import ar.edu.isistan.springsoap.gen.GetHerdResponse;
 import ar.edu.isistan.springsoap.gen.Herd;
+import soap.example.Constants;
 import soap.example.model.CowModel;
 import soap.example.model.HerdModel;
 import soap.example.repositories.HerdRepository;
 
 @Endpoint
 public class HerdEndPoint {
-
-	private static final String NAMESPACE_URI = "http://www.isistan.edu.ar/springsoap/gen";
 
 	private HerdRepository herdRepository;
 	
@@ -30,7 +29,7 @@ public class HerdEndPoint {
 		this.herdRepository = herdRepository;
 	}
 	
-	@PayloadRoot(namespace =  NAMESPACE_URI, localPart = "getHerdRequest")
+	@PayloadRoot(namespace =  Constants.NAMESPACE_URI, localPart = "getHerdRequest")
 	@ResponsePayload
 	public GetHerdResponse getHerd(@RequestPayload GetHerdRequest request) {
 		long id = request.getId().longValue();
