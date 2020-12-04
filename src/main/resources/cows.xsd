@@ -40,7 +40,42 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    
+    <xs:element name="saveCowRequest">
+    	<xs:complexType>
+            <xs:sequence>
+                <xs:element name="electronic-Id" type="xs:integer"/>
+                <xs:element name="fecha_nacimiento" type="xs:date"/>
+                <xs:element name="ultima_fecha_parto" type="xs:date"/>
+                <xs:element name="cantidad_partos" type="xs:integer"/>
+                <xs:element name="peso" type="xs:float"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 
+    <xs:element name="saveCowResponse">
+    	<xs:complexType>
+            <xs:sequence>
+                <xs:element name="cow" type="tns:Cow"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="getCowByEIDResponse">
+    	<xs:complexType>
+            <xs:sequence>
+                <xs:element name="cow" type="tns:Cow"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getCowByEIDRequest">
+    	<xs:complexType>
+            <xs:sequence>
+                <xs:element name="eid" type="xs:integer"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 
     <xs:complexType name="CowBcs">
     	<xs:sequence>
@@ -68,4 +103,5 @@
     		<xs:element name="bcs_threshold" type="xs:float"></xs:element>
     	</xs:sequence>
     </xs:complexType>
+
 </xs:schema>

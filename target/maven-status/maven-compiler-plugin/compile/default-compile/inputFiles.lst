@@ -1,12 +1,22 @@
-/Users/mauriarroqui/workspaceSTS/SoapExampleLive2/src/main/java/ar/edu/isistan/springsoap/gen/Herd.java
-/Users/mauriarroqui/workspaceSTS/SoapExampleLive2/src/main/java/ar/edu/isistan/model/HerdModel.java
-/Users/mauriarroqui/workspaceSTS/SoapExampleLive2/src/main/java/ar/edu/isistan/springsoap/gen/GetHerdResponse.java
-/Users/mauriarroqui/workspaceSTS/SoapExampleLive2/src/main/java/ar/edu/isistan/services/HerdEndPoint.java
-/Users/mauriarroqui/workspaceSTS/SoapExampleLive2/src/main/java/ar/edu/isistan/springsoap/gen/package-info.java
-/Users/mauriarroqui/workspaceSTS/SoapExampleLive2/src/main/java/ar/edu/isistan/model/CowModel.java
-/Users/mauriarroqui/workspaceSTS/SoapExampleLive2/src/main/java/soap/example/SoapExampleLive1Application.java
-/Users/mauriarroqui/workspaceSTS/SoapExampleLive2/src/main/java/ar/edu/isistan/springsoap/gen/GetHerdRequest.java
-/Users/mauriarroqui/workspaceSTS/SoapExampleLive2/src/main/java/ar/edu/isistan/repositories/HerdRepository.java
-/Users/mauriarroqui/workspaceSTS/SoapExampleLive2/src/main/java/soap/example/WebServiceConfig.java
-/Users/mauriarroqui/workspaceSTS/SoapExampleLive2/src/main/java/ar/edu/isistan/springsoap/gen/ObjectFactory.java
-/Users/mauriarroqui/workspaceSTS/SoapExampleLive2/src/main/java/ar/edu/isistan/springsoap/gen/Cow.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\ar\edu\isistan\springsoap\gen\Cow.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\ar\edu\isistan\springsoap\gen\CowAlert.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\ar\edu\isistan\springsoap\gen\HerdAlert.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\soap\example\repositories\CowRepository.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\ar\edu\isistan\springsoap\gen\GetHerdResponse.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\ar\edu\isistan\springsoap\gen\Herd.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\soap\example\Constants.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\ar\edu\isistan\springsoap\gen\SaveCowResponse.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\soap\example\SoapExampleLive1Application.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\soap\example\WebServiceConfig.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\ar\edu\isistan\springsoap\gen\GetCowByEIDResponse.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\ar\edu\isistan\springsoap\gen\GetHerdRequest.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\soap\example\repositories\HerdRepository.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\ar\edu\isistan\springsoap\gen\CowBcs.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\ar\edu\isistan\springsoap\gen\SaveCowRequest.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\soap\example\services\HerdEndPoint.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\ar\edu\isistan\springsoap\gen\GetCowByEIDRequest.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\ar\edu\isistan\springsoap\gen\ObjectFactory.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\ar\edu\isistan\springsoap\gen\package-info.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\soap\example\model\CowModel.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\soap\example\model\HerdModel.java
+C:\WorkDev\Eclipse IDE\eclipse-workspace\git\TpCOS_2020\src\main\java\soap\example\services\CowEndPoint.java
