@@ -27,6 +27,12 @@ public class HerdModel {
 		return Collections.unmodifiableList(cows);
 	}
 	
-	
+	public boolean getCow (Long idCow) {
+		for (CowModel cow : cows) {
+			if (cow.getId() == idCow) 
+				return true;
+		}
+		return false;
+	}
 	
 }

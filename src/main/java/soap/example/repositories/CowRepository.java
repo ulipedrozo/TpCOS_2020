@@ -57,4 +57,11 @@ public class CowRepository {
 		return c;
 	}
 	
+	public CowModel getCow (Long id) {
+		for (Long l : cows.keySet())
+			if (cows.get(l).getId() == id)
+				return cows.get(l);
+		return null;
+	}
+	
 }

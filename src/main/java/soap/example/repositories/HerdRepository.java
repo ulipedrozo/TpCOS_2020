@@ -13,8 +13,7 @@ import soap.example.model.HerdModel;
 @Component
 public class HerdRepository {
 	
-	private static final Map<Long, HerdModel> herds = new HashMap<>();
-	
+	private static final Map<Long, HerdModel> herds = new HashMap<>();	
 	
 	@PostConstruct
 	public void initData() {
@@ -36,6 +35,16 @@ public class HerdRepository {
 	
 	public HerdModel findHerd(Long id) {
 		return herds.get(id);
+	}
+	
+	public HerdModel addCowToHerd(Long idCow, Long idHerd) {
+		HerdModel herd = herds.get(idHerd);
+		if (herd != null) {
+			if (herd.getCow(idCow))
+				return null;
+			
+		}
+		return herd;
 	}
 	
 }

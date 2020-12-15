@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.11 
 // Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2020.12.02 a las 05:55:35 PM ART 
+// Generado el: 2020.12.15 a las 05:28:58 PM ART 
 //
 
 
@@ -101,6 +101,38 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link AddCowToHerdRequest }
+     * 
+     */
+    public AddCowToHerdRequest createAddCowToHerdRequest() {
+        return new AddCowToHerdRequest();
+    }
+
+    /**
+     * Create an instance of {@link AddCowToHerdResponse }
+     * 
+     */
+    public AddCowToHerdResponse createAddCowToHerdResponse() {
+        return new AddCowToHerdResponse();
+    }
+
+    /**
+     * Create an instance of {@link AddCowBCSRequest }
+     * 
+     */
+    public AddCowBCSRequest createAddCowBCSRequest() {
+        return new AddCowBCSRequest();
+    }
+
+    /**
+     * Create an instance of {@link AddCowBCSResponse }
+     * 
+     */
+    public AddCowBCSResponse createAddCowBCSResponse() {
+        return new AddCowBCSResponse();
+    }
+
+    /**
      * Create an instance of {@link CowBcs }
      * 
      */
@@ -109,11 +141,75 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link GetCowInfoRequest }
+     * 
+     */
+    public GetCowInfoRequest createGetCowInfoRequest() {
+        return new GetCowInfoRequest();
+    }
+
+    /**
+     * Create an instance of {@link GetCowInfoResponse }
+     * 
+     */
+    public GetCowInfoResponse createGetCowInfoResponse() {
+        return new GetCowInfoResponse();
+    }
+
+    /**
+     * Create an instance of {@link GetHerdInfoRequest }
+     * 
+     */
+    public GetHerdInfoRequest createGetHerdInfoRequest() {
+        return new GetHerdInfoRequest();
+    }
+
+    /**
+     * Create an instance of {@link GetHerdInfoResponse }
+     * 
+     */
+    public GetHerdInfoResponse createGetHerdInfoResponse() {
+        return new GetHerdInfoResponse();
+    }
+
+    /**
+     * Create an instance of {@link SetCowAlertRequest }
+     * 
+     */
+    public SetCowAlertRequest createSetCowAlertRequest() {
+        return new SetCowAlertRequest();
+    }
+
+    /**
+     * Create an instance of {@link SetCowAlertResponse }
+     * 
+     */
+    public SetCowAlertResponse createSetCowAlertResponse() {
+        return new SetCowAlertResponse();
+    }
+
+    /**
      * Create an instance of {@link CowAlert }
      * 
      */
     public CowAlert createCowAlert() {
         return new CowAlert();
+    }
+
+    /**
+     * Create an instance of {@link SetHerdAlertRequest }
+     * 
+     */
+    public SetHerdAlertRequest createSetHerdAlertRequest() {
+        return new SetHerdAlertRequest();
+    }
+
+    /**
+     * Create an instance of {@link SetHerdAlertResponse }
+     * 
+     */
+    public SetHerdAlertResponse createSetHerdAlertResponse() {
+        return new SetHerdAlertResponse();
     }
 
     /**

@@ -14,10 +14,10 @@ import ar.edu.isistan.springsoap.gen.Cow;
 import ar.edu.isistan.springsoap.gen.GetHerdRequest;
 import ar.edu.isistan.springsoap.gen.GetHerdResponse;
 import ar.edu.isistan.springsoap.gen.Herd;
-import soap.example.Constants;
 import soap.example.model.CowModel;
 import soap.example.model.HerdModel;
-import soap.example.repositories.HerdRepository;
+import soap.example.repositories.*;
+import soap.example.Constants;
 
 @Endpoint
 public class HerdEndPoint {

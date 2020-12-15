@@ -5,7 +5,7 @@
 Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.11 
 Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-Generado el: 2020.12.02 a las 05:55:35 PM ART 
+Generado el: 2020.12.15 a las 05:28:58 PM ART 
 
   -->
   <bindings scd="x-schema::tns" xmlns:tns="http://www.isistan.edu.ar/springsoap/gen">
@@ -36,11 +36,47 @@ Generado el: 2020.12.02 a las 05:55:35 PM ART
     <bindings scd="tns:getCowByEIDRequest">
       <class ref="ar.edu.isistan.springsoap.gen.GetCowByEIDRequest"/>
     </bindings>
+    <bindings scd="tns:addCowToHerdRequest">
+      <class ref="ar.edu.isistan.springsoap.gen.AddCowToHerdRequest"/>
+    </bindings>
+    <bindings scd="tns:addCowToHerdResponse">
+      <class ref="ar.edu.isistan.springsoap.gen.AddCowToHerdResponse"/>
+    </bindings>
+    <bindings scd="tns:addCowBCSRequest">
+      <class ref="ar.edu.isistan.springsoap.gen.AddCowBCSRequest"/>
+    </bindings>
+    <bindings scd="tns:addCowBCSResponse">
+      <class ref="ar.edu.isistan.springsoap.gen.AddCowBCSResponse"/>
+    </bindings>
     <bindings scd="~tns:CowBcs">
       <class ref="ar.edu.isistan.springsoap.gen.CowBcs"/>
     </bindings>
+    <bindings scd="tns:getCowInfoRequest">
+      <class ref="ar.edu.isistan.springsoap.gen.GetCowInfoRequest"/>
+    </bindings>
+    <bindings scd="tns:getCowInfoResponse">
+      <class ref="ar.edu.isistan.springsoap.gen.GetCowInfoResponse"/>
+    </bindings>
+    <bindings scd="tns:getHerdInfoRequest">
+      <class ref="ar.edu.isistan.springsoap.gen.GetHerdInfoRequest"/>
+    </bindings>
+    <bindings scd="tns:getHerdInfoResponse">
+      <class ref="ar.edu.isistan.springsoap.gen.GetHerdInfoResponse"/>
+    </bindings>
+    <bindings scd="tns:setCowAlertRequest">
+      <class ref="ar.edu.isistan.springsoap.gen.SetCowAlertRequest"/>
+    </bindings>
+    <bindings scd="tns:setCowAlertResponse">
+      <class ref="ar.edu.isistan.springsoap.gen.SetCowAlertResponse"/>
+    </bindings>
     <bindings scd="~tns:CowAlert">
       <class ref="ar.edu.isistan.springsoap.gen.CowAlert"/>
+    </bindings>
+    <bindings scd="tns:setHerdAlertRequest">
+      <class ref="ar.edu.isistan.springsoap.gen.SetHerdAlertRequest"/>
+    </bindings>
+    <bindings scd="tns:setHerdAlertResponse">
+      <class ref="ar.edu.isistan.springsoap.gen.SetHerdAlertResponse"/>
     </bindings>
     <bindings scd="~tns:HerdAlert">
       <class ref="ar.edu.isistan.springsoap.gen.HerdAlert"/>

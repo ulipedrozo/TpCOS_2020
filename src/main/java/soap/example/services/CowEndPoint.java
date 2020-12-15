@@ -23,11 +23,11 @@ import ar.edu.isistan.springsoap.gen.GetCowByEIDResponse;
 import ar.edu.isistan.springsoap.gen.Herd;
 import ar.edu.isistan.springsoap.gen.SaveCowRequest;
 import ar.edu.isistan.springsoap.gen.SaveCowResponse;
-import soap.example.Constants;
 import soap.example.model.CowModel;
 import soap.example.model.HerdModel;
 import soap.example.repositories.CowRepository;
 import soap.example.repositories.HerdRepository;
+import soap.example.Constants;
 
 @Endpoint
 public class CowEndPoint {
@@ -61,7 +61,7 @@ public class CowEndPoint {
 	
 	@PayloadRoot(namespace =  Constants.NAMESPACE_URI, localPart = "saveCowRequest")
 	@ResponsePayload
-	public SaveCowResponse getCowByEID(@RequestPayload SaveCowRequest request) {
+	public SaveCowResponse SaveCow(@RequestPayload SaveCowRequest request) {
 		int eid = request.getElectronicId().intValue();
 		Date bd = request.getFechaNacimiento().toGregorianCalendar().getTime();
 		Date ld = request.getUltimaFechaParto().toGregorianCalendar().getTime();
